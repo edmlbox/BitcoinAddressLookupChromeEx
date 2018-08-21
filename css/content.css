@@ -1,0 +1,41 @@
+#addressID,#finalBal,#N_tx,#totalReceived,#totalSent{
+    font-size: 12px;
+}
+.closePopup{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    left: 228px;
+    background-color: white;
+    background-color: rgb(255, 253, 236);
+  color:gray;
+    width: 27px;
+    height: 21px;
+    align-items: center;
+    z-index: -96;
+    top: -22px;
+    box-shadow: 0 -1px 5px grey;
+}
+.divmaincont{width: 250px;padding-left: 5px;background-color: rgb(255, 253, 236);}
+span{margin-bottom: 10px;}
+.classData{}
+.dragelClass{cursor: grab;
+    flex: 1 0 77%;
+    position: relative;
+    top: 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;}
+    .classData:nth-of-type(1){}
+    .classData:nth-of-type(2){}
+    .classData:nth-of-type(3){}
+    .classData:nth-of-type(4){}
+    .classData:nth-of-type(5){}
+
+    #addressID{margin-top: 5px;    color: blue;}
+    #finalBal > .classData{margin-left: 10px;color: blue;}
+    #N_tx > .classData{margin-left: 21px;color: blue;}
+    #totalReceived > .classData{    margin-left: 43px;color: blue;}
+    #totalSent > .classData{    margin-left: 25px;color: blue;}

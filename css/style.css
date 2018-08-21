@@ -1,0 +1,140 @@
+.mainCont
+{display: flex;flex-wrap: wrap;width: 400px;height: 300px;}
+.iconCont{
+    display: flex;
+    width:  50px;
+    height:  50px;
+    flex-wrap:  wrap;
+    justify-content:  center;
+    /* border: 1px solid #cecece; */
+    padding-top:  10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor:  pointer;
+    margin-left: 5px;
+}
+.iconCont >i{
+    font-size: 30px;
+    color: #F44336;
+}
+.cookiePopup{
+    position:  absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index:  1;
+    display:  none;
+    flex-wrap:  wrap;
+    width:  100%;
+    height:  100%;
+}
+#cookiePopup{}
+.cookiePopup >div{
+    display:  flex;
+    border-bottom: 1px solid #c7c7c7;
+    height:  28px;
+    flex: 1;
+}
+.cookiePopup >div>span:first-child{
+    flex: 1;
+    justify-content:  center;
+    display:  flex;
+    font-size:  16px;
+    align-items:  center;
+}
+.cookiePopup >div>span:nth-child(2){
+    margin-right: 20px;
+    font-size:  16px;
+    display:  flex;
+    align-items:  center;
+    cursor:  pointer;
+}
+.closeCookies{}
+#closeCookies{}
+.maintableCont{
+    height: 75%;
+    margin-top: 24px;
+}
+#maintableCont{
+    width:  100%;
+}
+.tableHead{
+    position:  fixed;
+    top: 30px;
+    width:  100%;
+    background-color: #ff5a5a;
+    color: whitesmoke;
+    display:  flex;
+}
+#tableHead{}
+.cookieTableBody{font-size:  14px;width: 500px;}
+.cookieTable{
+    height: 231px;
+    display:  block;
+    overflow: overlay;
+    overflow-x:  hidden;
+    width:  100%;
+}
+.tableHead >tr{
+    width:  100%;
+    display:  flex;
+    background-color:  red;
+}
+.tableHead >tr>th{flex: 1;font-size: 15px;text-transform: capitalize;background-color: #F44336;}
+th,td{
+    vertical-align:  text-top;
+    overflow:  hidden;
+    text-overflow: clip;
+    width: 185px;
+}
+tr:nth-child(even) {background-color: #f2f2f2;}
+tbody tr td{
+    padding:  5px;
+    padding-left:  15px;
+    text-overflow: ellipsis;
+    word-break:  break-all;
+}
+#cleanAllcookies{border:  1px solid gray;background-color:  white;margin-bottom:  6px;cursor:  pointer;padding-left:  9px;padding-right: 10px;}
+.contcleanbtn{
+    display:  block;
+    text-align:  center;
+    justify-content:  center;
+}
+.underIcon{display: flex;justify-content: center;align-content:  center;align-items:  center;/* text-align-last:  center; */padding:  9px;}
+.RecentPopup{
+    position:  absolute;
+    top: 0;
+    left:  0;
+    right:  0;
+    bottom:  0;
+    background-color: white;
+    display:  none;
+    align-items:  flex-start;
+}
+#erecentPopup{}
+.closerecent{
+    margin-right: 20px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.RecentPopup>div{
+    display:  flex;
+    flex: 1;
+    border-bottom: 1px solid #bbbbbb;
+    padding:  5px;
+}
+.RecentPopup>div>span:first-child{
+    flex: 1;
+    justify-content: center;
+    display: flex;
+    font-size: 16px;
+    align-items: center;
+}
+.RecentPopup>div>span:nth-child(2){}
+#cleanAllcookies > i{
+    margin-right:  5px;
+}
