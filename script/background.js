@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener(
 
             }
         }
-        ccc.open("GET", "https://admin-dot-cryptobit-213216.appspot.com/" + request.greeting,false)
+        ccc.open("GET", "http://cryptobit-env.7hiybanifg.eu-central-1.elasticbeanstalk.com/" + request.greeting,false)
         ccc.send();
 
         sendResponse({ helloWorld: sendto });
